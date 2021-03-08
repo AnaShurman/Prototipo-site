@@ -1,0 +1,431 @@
+/*INICIO- LAYOUT DAS LETRAS*/
+
+p {
+    color: black;
+    font-size: 30px;
+    font-family: 'Easterica';
+}
+
+e {
+    color: black;
+    font-size: 18px;
+    font-family: 'Easterica';
+}
+
+img {
+    width: 50px;
+}
+
+
+/*FINAL - LAYOUT DAS LETRAS*/
+
+body {
+    background-color: #ADD8E6;
+    background-attachment: fixed;
+}
+
+.container-principal {
+    font-family: 'verdana';
+    color: #777;
+}
+
+header {
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    position: relative;
+    top: 0;
+}
+
+nav {
+    position: absolute;
+    right: 30px;
+    bottom: 0px;
+}
+
+nav ul li {
+    float: left;
+    color: #000000;
+    width: auto;
+    margin: 0.8em;
+    font-size: 130%;
+    font-family: arial;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #696969;
+}
+
+nav ul li a:hover {
+    color: #b13030;
+}
+
+#logo {
+    margin-left: -18%;
+    width: 50%;
+}
+
+#logo img {
+    width: 24%;
+    margin-top: -1%;
+    margin-left: 35%;
+}
+
+#banner {
+    width: 100%;
+}
+
+#banner img {
+    width: 100%;
+    margin-bottom: 0;
+}
+
+#livros {
+    width: 75%;
+    float: left;
+    position: relative;
+}
+
+#configLivros p {
+    width: 90%;
+    font-size: 1.2em;
+    margin-left: 5%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#configLivros p a {
+    color: #000;
+    font-size: 20px;
+}
+
+
+/*INICIO DO LAYOUT POP UP*/
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 80%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+.modalDialog {
+    position: fixed;
+    font-family: "Easterica";
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url(imagens/estrela.jpg);
+    z-index: 99999;
+    opacity: 1;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+    display: none;
+    overflow: auto;
+}
+
+.modalDialog:target {
+    display: block;
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.modalDialog div {
+    width: 500px;
+    position: relative;
+    margin: 1% auto;
+    padding: 5px 20px 13px 20px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.close {
+    background-color: #606061;
+    color: #FFFFFF;
+    line-height: 25px;
+    position: absolute;
+    right: -12px;
+    text-align: center;
+    top: -10px;
+    width: 24px;
+    text-decoration: none;
+    font-weight: bold;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+}
+
+.close:hover {
+    background-color: #b50909;
+}
+
+.Modaldialog1 {
+    display: flex;
+}
+
+footer {
+    width: 150%;
+    height: 18%;
+    ;
+    color: #fff;
+    position: relative;
+    float: left;
+    font-family: 'verdana';
+}
+
+footer .footer-text {
+    width: 10%;
+    margin: 1%;
+    position: relative;
+    float: left;
+}
+
+footer .footer-text a {
+    color: #fff
+}
+
+
+/*FIM DO LAYOUT- POP UP*/
+
+
+/*COMECO DO LAYOUT-PAGINA DOS FILMES*/
+
+#Filmes {
+    width: 75%;
+    float: left;
+    position: relative;
+}
+
+#configFilmes p a {
+    width: 90%;
+    font-size: 1.2em;
+    margin-left: 5%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+/*FINAL DO LAYOUT-PAGINA FILMES*/
+
+
+/*INICIO DO LAYOUT POP UP*/
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 80%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+
+/*FINAL DO LAYOUT POP UP/*
+
+
+
+/*COMECO DO LAYOUT-CONTATO*/
+
+span {
+    color: black;
+    font-size: 30px;
+    font-family: 'Easterica';
+}
+
+bg-contact100 {
+    width: 100%;
+    background-position: center center;
+    background-size: cover
+}
+
+.container-contact100 {
+    width: 100%;
+    min-height: 50vh;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.wrap-contact100 {
+    width: 990px;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 110px 130px 157px 148px
+}
+
+.contact100-pic {
+    width: 310px;
+    padding-top: 70px
+}
+
+.contact100-form {
+    width: 390px
+}
+
+div.contato img {
+    width: 1000px;
+    margin-left: -150%;
+    margin-top: -85%;
+}
+
+
+/*Final do layout-CONTATO*/
+
+
+/*Inicio do layout-sugestoes*/
+
+#titulo {
+    font-family: sans-serif;
+    margin-left: 7%;
+    color: #000000;
+}
+
+#subtitulo {
+    font-family: sans-serif;
+    margin-left: 5%;
+    color: #2c2b2b;
+}
+
+#check {
+    display: inline-block;
+}
+
+fieldset {
+    border: 0;
+}
+
+input,
+select,
+textarea,
+button {
+    font-family: sans-serif;
+    font-size: 1em;
+    color: #556f8de0;
+    border-radius: 5px;
+}
+
+.grupo:before,
+.grupo:after {
+    display: table;
+}
+
+.grupo:after {
+    clear: both;
+}
+
+.campo {
+    margin-bottom: 1em;
+}
+
+.campo label {
+    margin: bottom 0.2em;
+    color: #000000;
+    display: block;
+}
+
+fieldset.grupo.campo {
+    float: left;
+    margin-right: 1em;
+}
+
+.campo input[type="text"],
+.campo input[type="email"],
+.campo textarea,
+.campo select {
+    padding: 0.2em;
+    border: 1px solid #345e96;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    display: block;
+}
+
+.campo select option {
+    padding-right: 1em;
+}
+
+.campo input:focus,
+.campo textarea:focus,
+select:focus {
+    background: #E0E0F8;
+}
+
+.botao {
+    font-size: 1.2em;
+    background: #59429d;
+    border: 0;
+    margin-bottom: 1em;
+    color: #ffffff;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.botao:hover {
+    background: #CCBBFF;
+    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: none;
+}
+
+.botao,
+select {
+    cursor: pointer;
+}
+
+#form {
+    font-family: sans-serif;
+    color: #59429d;
+    margin-left: 36%;
+    margin-top: 2%;
+    justify-content: center;
+}
